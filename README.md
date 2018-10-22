@@ -9,3 +9,13 @@ API.swift: This is wrapper class to  Network call. This centralises all APIs to 
 ImageDonwaloadManager: This is singleton manager for images download from server. It does maintains progressing downloads and cancels the unsed requests. This class also caches the images for faster user experience.
 FlickrSearchResponseModel: This is model class for Flickr API response and it does convert JSON to Object and vice versa using Codable protocol
 
+Unit Tests:
+- Tests for models parses JSON data accurately for valid datas and doen't parses invalid JSON
+- Tests for pagination implementation
+- Tests collection view binding and view outlet properly connected
+
+UI Tests:
+- Tests for UI proper working, searching working, scrolling working
+
+TradeOffs:
+- Same project could be done in MVVM + C or VIPER architecture which would give more coverage for TESTS
